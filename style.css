@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: california;
+    src: url(California.ttf);
+}
+
+body{
+    background: url(back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.link-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 5px #fff;
+    border-radius: 50%;
+}
+
+.link-bio h1{
+    font-size: 40px;
+}
+
+.link-bio a {
+    background-color: rgb(253,101,13);
+    color: rgb(255,255,255);
+    padding: 30px;
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px rgb(255,255,255);
+    border-radius: 10px;
+}
+
+.link-bio a:hover {
+    background-color: rgb(17,177,255);
+}
+
+.titulo {
+    text-align: center;
+    font-family: california;
+}
