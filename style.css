@@ -11,6 +11,11 @@
     src: url(California.ttf);
 }
 
+@font-face {
+    font-family: bebas;
+    src: url(Bebas.otf);
+}
+
 body{
     background: url(back.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -60,4 +65,9 @@ body{
 .titulo {
     text-align: center;
     font-family: california;
+}
+
+.titulo1 {
+    text-align: center;
+    font-family: bebas;
 }
